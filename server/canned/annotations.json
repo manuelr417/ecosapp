@@ -1,0 +1,102 @@
+{
+  "9eeab6bf23236d43c9b46f609e1fc30a7c4f6ed5c151cfd6b1456bf45338f004": {
+    "image": "act2/cells-01.jpg",
+    "detections": [
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.07999999999999999,
+          0.12,
+          0.28,
+          0.32
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.42000000000000004,
+          0.21999999999999997,
+          0.68,
+          0.48
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.7100000000000001,
+          0.61,
+          0.89,
+          0.7899999999999999
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.26999999999999996,
+          0.7000000000000001,
+          0.43,
+          0.86
+        ]
+      }
+    ]
+  },
+  "0e93687cb0d3bbb76eb1e2613b0f676668a6bddf4b81d11bb92ef1ebd562ad6f": {
+    "image": "act2/cells-02.jpg",
+    "detections": [
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.18,
+          0.18,
+          0.42,
+          0.42
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.62,
+          0.16999999999999998,
+          0.7799999999999999,
+          0.33
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.51,
+          0.5700000000000001,
+          0.73,
+          0.79
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.07999999999999999,
+          0.5800000000000001,
+          0.22,
+          0.72
+        ]
+      },
+      {
+        "label": "cell cluster",
+        "confidence": 0.93,
+        "bbox": [
+          0.8200000000000001,
+          0.44,
+          0.94,
+          0.56
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "act1": [
+    {
+      "id": "bus",
+      "file": "samples/act1/bus.jpg"
+    },
+    {
+      "id": "zidane",
+      "file": "samples/act1/zidane.jpg"
+    }
+  ],
+  "act2": [
+    {
+      "id": "cells-01",
+      "file": "samples/act2/cells-01.jpg"
+    },
+    {
+      "id": "cells-02",
+      "file": "samples/act2/cells-02.jpg"
+    }
+  ]
+}
