@@ -35,7 +35,7 @@ and only detection text (never the image) is sent to any LLM.
 +---------------------------------------------------------------+
          ^                                          ^
          |                                          |
-  client/ (Vite + React + MUI,              lab GPU node 136.145.77.22
+  client/ (Vite + React + MUI,              lab GPU node <LLM endpoint ip>
   dark theme, canvas overlays)              (vLLM, GLM-5.3 FP16)
 ```
 
@@ -69,7 +69,7 @@ device on the same network).
 | --- | --- | --- |
 | `ROBOFLOW_API_KEY` | — | Enables live Act 2 hosted detection |
 | `ROBOFLOW_MODEL` | `mouse-stem-cells/1` | Cell model id or full serverless URL |
-| `LLM_PRIMARY_BASE_URL` | `http://136.145.77.22:8000/v1` | Lab vLLM (GLM-5.3) |
+| `LLM_PRIMARY_BASE_URL` | `http://<LLM endpoint ip>:8000/v1` | Lab vLLM (GLM-5.3) |
 | `LLM_FALLBACK_BASE_URL` / `LLM_FALLBACK_MODEL` | `https://api.openai.com/v1` / `gpt-4o-mini` | ChatGPT fallback rung |
 | `OPENAI_API_KEY` | — | Key for the fallback rung (read from env) |
 

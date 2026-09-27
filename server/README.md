@@ -39,7 +39,7 @@ the QR code (next section).
 
 1. **Endpoint checks** (from the venue network):
    ```bash
-   curl -m 5 http://136.145.77.22:8000/v1/models   # rung 1: vLLM GLM-5.3
+   curl -m 5 http://<LLM endpoint ip>:8000/v1/models   # rung 1: vLLM GLM-5.3
    echo $OPENAI_API_KEY | wc -c                    # rung 2: OpenAI (nonzero = set)
    ```
    If the lab node is down, narration automatically uses ChatGPT, then canned text.
